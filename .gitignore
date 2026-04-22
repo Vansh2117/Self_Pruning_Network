@@ -1,0 +1,65 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environments
+# =========================
+p_env/
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Jupyter Notebook checkpoints
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Data files (optional)
+# =========================
+# Ignore raw dataset archive if not needed
+data/cifar-10-python.tar.gz
+
+# Ignore extracted dataset (recommended for repo cleanliness)
+data/cifar-10-batches-py/
+
+# =========================
+# Results (keep selectively)
+# =========================
+# Ignore all results by default
+results/*
+
+# BUT keep important plots (whitelist)
+!results/gate_histograms.png
+!results/training_curves.png
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+*.tmp
+
+# =========================
+# HTML files (your request)
+# =========================
+*.html
+debugging_journal.md
