@@ -1,7 +1,6 @@
 # Self-Pruning Neural Network — CIFAR-10
 
-A feedforward neural network that learns to prune its own connections **during training** using learnable gate parameters and sparsity regularisation. Built as a case study for the Tredence Analytics AI Engineer internship.
-
+A feedforward neural network that learns to prune its own connections **during training** using learnable gate parameters and sparsity regularisation.
 ---
 
 ## Project Structure
